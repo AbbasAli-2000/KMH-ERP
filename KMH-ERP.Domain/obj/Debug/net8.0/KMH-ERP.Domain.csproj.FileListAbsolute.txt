@@ -1,0 +1,12 @@
+D:\KMH-ERP\KMH-ERP.Domain\bin\Debug\net8.0\KMH-ERP.Domain.deps.json
+D:\KMH-ERP\KMH-ERP.Domain\bin\Debug\net8.0\KMH-ERP.Domain.dll
+D:\KMH-ERP\KMH-ERP.Domain\bin\Debug\net8.0\KMH-ERP.Domain.pdb
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.csproj.AssemblyReference.cache
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.AssemblyInfoInputs.cache
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.AssemblyInfo.cs
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.csproj.CoreCompileInputs.cache
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.dll
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\refint\KMH-ERP.Domain.dll
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\KMH-ERP.Domain.pdb
+D:\KMH-ERP\KMH-ERP.Domain\obj\Debug\net8.0\ref\KMH-ERP.Domain.dll

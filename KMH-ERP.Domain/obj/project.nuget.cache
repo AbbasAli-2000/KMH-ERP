@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SxBVXuCBr0UxHO9pGHNVUHnKxBy0c9PWvU862pfeU+mP5z9/H5mkJvyHF3/aavyMEZSVxbi57npXiChO1c0DIw==",
+  "success": true,
+  "projectFilePath": "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\BI.IT-027\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.8\\microsoft.entityframeworkcore.abstractions.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
