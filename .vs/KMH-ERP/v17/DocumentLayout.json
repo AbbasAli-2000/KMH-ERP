@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\KMH-ERP\\KMH-ERP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9D62060C-FE63-4756-B211-33E67EAEC505}|KMH-ERP.Web\\KMH-ERP.Web.csproj|d:\\kmh-erp\\kmh-erp\\kmh-erp.web\\views\\user\\addedituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D62060C-FE63-4756-B211-33E67EAEC505}|KMH-ERP.Web\\KMH-ERP.Web.csproj|solutionrelative:kmh-erp.web\\views\\user\\addedituser.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D62060C-FE63-4756-B211-33E67EAEC505}|KMH-ERP.Web\\KMH-ERP.Web.csproj|d:\\kmh-erp\\kmh-erp\\kmh-erp.web\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9D62060C-FE63-4756-B211-33E67EAEC505}|KMH-ERP.Web\\KMH-ERP.Web.csproj|solutionrelative:kmh-erp.web\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D62060C-FE63-4756-B211-33E67EAEC505}|KMH-ERP.Web\\KMH-ERP.Web.csproj|d:\\kmh-erp\\kmh-erp\\kmh-erp.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D62060C-FE63-4756-B211-33E67EAEC505}|KMH-ERP.Web\\KMH-ERP.Web.csproj|solutionrelative:kmh-erp.web\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3fd5e0cc-709a-4f8c-94c3-7f0f8dff5bb2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Web\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "KMH-ERP.Web\\Views\\User\\Index.cshtml",
+              "ToolTip": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Web\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "KMH-ERP.Web\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAADUAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T07:32:00.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddEditUser.cshtml",
+              "DocumentMoniker": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Web\\Views\\User\\AddEditUser.cshtml",
+              "RelativeDocumentMoniker": "KMH-ERP.Web\\Views\\User\\AddEditUser.cshtml",
+              "ToolTip": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Web\\Views\\User\\AddEditUser.cshtml",
+              "RelativeToolTip": "KMH-ERP.Web\\Views\\User\\AddEditUser.cshtml",
+              "ViewState": "AQIAAFwAAAAAAAAAAADwv2AAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-08-25T03:54:45.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Web\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "KMH-ERP.Web\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Web\\Controllers\\UserController.cs",
+              "RelativeToolTip": "KMH-ERP.Web\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-25T03:28:53.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d562c6a0-d2fe-4c19-a8b3-e5cbc09bf375}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 300,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{ec2c1c6c-cecc-4f7a-869e-9a8f55540944}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

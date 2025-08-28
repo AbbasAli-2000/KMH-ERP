@@ -1,0 +1,122 @@
+﻿@model UserViewModel
+
+<div class="container mt-4">
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light rounded-3 px-3 py-2 mb-3">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "User")">Users</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@((Model.User.UserId == 0 ? "Add User" : "Edit User"))</li>
+        </ol>
+    </nav>
+
+    <div class="card shadow-lg border-0 rounded-4">
+        <div class="card-header bg-primary text-white d-flex align-items-center">
+            <i class="bi bi-person-badge me-2"></i>
+            <span>@(Model?.User.UserId == 0 ? "Add User" : "Edit User")</span>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="AddEditUser" method="post" enctype="multipart/form-data">
+                @Html.AntiForgeryToken()
+                <input asp-for="User.UserId" type="hidden" />
+
+                <!-- Profile Image Upload -->
+                <div class="d-flex justify-content-center mb-4">
+                    <div class="position-relative">
+                        <img id="previewImage"
+                             src="@(string.IsNullOrEmpty(Model?.User.ProfileImagePath) ? (string.IsNullOrEmpty(Model?.User.ProfileImagePath) ? "/images/default-user.png" : Model.User.ProfileImagePath)
+                            : Model.User.ProfileImagePath)"
+                             class="rounded-circle border border-3 border-primary"
+                             style="width: 150px; height: 150px; object-fit: cover;" />
+
+                        <!-- Camera Icon -->
+                        <label for="fileInput" class="position-absolute bottom-0 end-0 bg-primary text-white rounded-circle p-2" style="cursor:pointer;">
+                            <i class="bi bi-camera-fill"></i>
+                        </label>
+                        <input id="fileInput" type="file" asp-for="User.ProfileImagePath" accept="image/*" hidden />
+                        <input type="hidden" asp-for="User.ProfileImagePath" />
+                    </div>
+                </div>
+
+
+
+                <div class="mb-3">
+                    <label>UserName</label>
+                    <input asp-for="User.UserName" class="form-control border border-primary" />
+                    <span asp-validation-for="User.UserName" class="text-danger"></span>
+                </div>
+
+                @if (Model.User.UserId == 0)
+                {
+                    <div class="row g-3 mb-3">
+                        <div class="col-md-6">
+                            <label>Password</label>
+                            <input asp-for="User.PasswordHash" type="password" class="form-control border border-primary" />
+                            <span asp-validation-for="User.PasswordHash" class="text-danger"></span>
+                        </div>
+                        <div class="col-md-6">
+                            <label>Confirm Password</label>
+                            <input asp-for="confirmPassword" type="password" class="form-control border border-primary" />
+                        </div>
+                    </div>
+                }
+
+                <div class="mb-3">
+                    <label>Email</label>
+                    <input asp-for="User.Email" type="text" class="form-control border border-primary" />
+                    <span asp-validation-for="User.Email" class="text-danger"></span>
+                </div>
+
+                <div class="row g-3 mb-3">
+                    <div class="col-md-6">
+                        <label>Phone Number</label>
+                        <input asp-for="User.PhoneNumber" class="form-control border border-primary" />
+                        <span asp-validation-for="User.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="col-md-6">
+                        <label>Mobile Number</label>
+                        <input asp-for="User.MobileNumber" class="form-control border border-primary" />
+                    </div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="User.RoleId" class="form-label"></label>
+                    <select asp-for="User.RoleId" class="form-select border border-primary" asp-items="ViewBag.RoleList">
+                        <option value="0">-- Select Role --</option>
+                    </select>
+                    <span asp-validation-for="User.RoleId" class="text-danger"></span>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="User.IsActive" class="form-check-input" type="checkbox" />
+                    <label class="form-check-label">Active</label>
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center">
+                    <button type="submit" class="btn btn-primary">
+                        <i class="bi bi-save me-1"></i> Save
+                    </button>
+                    <a class="btn btn-secondary" href="@Url.Action("Index", "User")">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        document.getElementById("fileInput").addEventListener("change", function (e) {
+            const file = e.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    document.getElementById("previewImage").src = e.target.result;
+                    document.querySelector("input[name='ProfileImagePreview']").value = e.target.result;
+                };
+                reader.readAsDataURL(file);
+            }
+        });
+    </script>
+
+}

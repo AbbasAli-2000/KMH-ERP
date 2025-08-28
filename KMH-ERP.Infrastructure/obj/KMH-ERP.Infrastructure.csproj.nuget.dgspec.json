@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj": {}
+    "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj": {
+    "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj",
+        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj",
         "projectName": "KMH-ERP.Application",
-        "projectPath": "D:\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj",
+        "projectPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj",
         "packagesPath": "C:\\Users\\BI.IT-027\\.nuget\\packages\\",
-        "outputPath": "D:\\KMH-ERP\\KMH-ERP.Application\\obj\\",
+        "outputPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BI.IT-027\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {
-                "projectPath": "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj"
+              "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {
+                "projectPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj"
               }
             }
           }
@@ -50,7 +50,11 @@
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
-              "version": "[15.0.1, )"
+              "version": "[8.1.1, )"
+            },
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.66, )"
             },
             "FluentValidation": {
               "target": "Package",
@@ -59,6 +63,10 @@
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[12.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.19, )"
             }
           },
           "imports": [
@@ -81,14 +89,14 @@
         }
       }
     },
-    "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {
+    "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
+        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
         "projectName": "KMH-ERP.Domain",
-        "projectPath": "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
+        "projectPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
         "packagesPath": "C:\\Users\\BI.IT-027\\.nuget\\packages\\",
-        "outputPath": "D:\\KMH-ERP\\KMH-ERP.Domain\\obj\\",
+        "outputPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BI.IT-027\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -124,6 +132,10 @@
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
@@ -146,14 +158,14 @@
         }
       }
     },
-    "D:\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj": {
+    "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj",
+        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj",
         "projectName": "KMH-ERP.Infrastructure",
-        "projectPath": "D:\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj",
+        "projectPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Infrastructure\\KMH-ERP.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\BI.IT-027\\.nuget\\packages\\",
-        "outputPath": "D:\\KMH-ERP\\KMH-ERP.Infrastructure\\obj\\",
+        "outputPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BI.IT-027\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -169,8 +181,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "D:\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj": {
-                "projectPath": "D:\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj"
+              "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj": {
+                "projectPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Application\\KMH-ERP.Application.csproj"
               }
             }
           }
@@ -202,6 +214,22 @@
               "target": "Package",
               "version": "[2.1.66, )"
             },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.19, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Microsoft.Data.SqlClient": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.8, )"
@@ -215,6 +243,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             },
             "System.Data.SqlClient": {
               "target": "Package",

@@ -1,0 +1,50 @@
+﻿@model RoleViewModel
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+
+<div class="container mt-4">
+    <!-- Breadcrumb -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb bg-light rounded-3 px-3 py-2 mb-3">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Home")">Home</a></li>
+            <li class="breadcrumb-item"><a href="@Url.Action("Index", "Role")">Roles</a></li>
+            <li class="breadcrumb-item active" aria-current="page">@((Model.Role.RoleId == 0 ? "Add Role" : "Edit Role"))</li>
+        </ol>
+    </nav>
+
+    <div class="card border-primary shadow-sm">
+        <div class="card-header bg-primary text-white fw-bold d-flex align-items-center">
+            <i class="bi bi-shield-lock-fill me-2"></i>
+            <span>@((Model.Role.RoleId == 0 ? "Add Role" : "Edit Role"))</span>
+        </div>
+
+        <div class="card-body">
+            <form asp-action="AddRole" method="post">
+                @Html.AntiForgeryToken()
+                <input asp-for="Role.RoleId" type="hidden" />
+
+                <div class="mb-3">
+                    <label asp-for="Role.RoleName" class="form-label">Role Name</label>
+                    <input asp-for="Role.RoleName" class="form-control border border-primary" />
+                    <span asp-validation-for="Role.RoleName" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Role.Description" class="form-label">Description</label>
+                    <textarea asp-for="Role.Description" class="form-control border border-primary" rows="2"></textarea>
+                </div>
+
+                <div class="form-check mb-3">
+                    <input asp-for="Role.IsActive" class="form-check-input" type="checkbox" />
+                    <label class="form-check-label">Active</label>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <button type="submit" class="btn btn-primary"> <i class="bi bi-save me-1"></i> Save </button>
+                    <a class="btn btn-secondary" asp-action="Index" asp-controller="Role">Back</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

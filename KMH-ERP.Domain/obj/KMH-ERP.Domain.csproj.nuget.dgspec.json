@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {}
+    "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {}
   },
   "projects": {
-    "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {
+    "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
+        "projectUniqueName": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
         "projectName": "KMH-ERP.Domain",
-        "projectPath": "D:\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
+        "projectPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\KMH-ERP.Domain.csproj",
         "packagesPath": "C:\\Users\\BI.IT-027\\.nuget\\packages\\",
-        "outputPath": "D:\\KMH-ERP\\KMH-ERP.Domain\\obj\\",
+        "outputPath": "D:\\KMH-ERP\\KMH-ERP\\KMH-ERP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BI.IT-027\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,10 @@
             "Microsoft.EntityFrameworkCore.Abstractions": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.14.0, )"
             }
           },
           "imports": [
